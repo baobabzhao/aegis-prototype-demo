@@ -1,0 +1,32 @@
+{
+  "correct": {
+    "label": "案例一：正确诊断",
+    "description": "类型和图像相对位置均与参考证据一致。",
+    "diagnosis": {
+      "类型": "__TRUE_CLASS__",
+      "位置": "__TRUE_LOCATION__",
+      "严重度": "严重",
+      "形态": "深色烧蚀并伴随局部材料剥离"
+    }
+  },
+  "wrong_type": {
+    "label": "案例二：类型错误",
+    "description": "故意把类型替换为另一类，位置保持正确。",
+    "diagnosis": {
+      "类型": "__WRONG_CLASS__",
+      "位置": "__TRUE_LOCATION__",
+      "严重度": "严重",
+      "形态": "深色烧蚀并伴随局部材料剥离"
+    }
+  },
+  "wrong_location": {
+    "label": "案例三：位置错误",
+    "description": "类型保持正确，故意把位置替换到相反区域。",
+    "diagnosis": {
+      "类型": "__TRUE_CLASS__",
+      "位置": "__WRONG_LOCATION__",
+      "严重度": "严重",
+      "形态": "深色烧蚀并伴随局部材料剥离"
+    }
+  }
+}

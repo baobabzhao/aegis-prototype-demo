@@ -1,0 +1,6 @@
+craze
+corrosion
+surface_injure
+thunderstrike
+crack
+hide_craze
